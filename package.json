@@ -1,0 +1,27 @@
+{
+  "name": "react-native-cjk-textinput-patch",
+  "version": "1.0.0",
+  "description": "Patch for TextInput problem in CJK",
+  "keywords": [
+    "react-native",
+    "textinput",
+    "cjk"
+  ],
+  "main": "patch.js",
+  "author": "ifsnow <ifsnow@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifsnow/react-native-cjk-textinput-patch.git"
+  },
+  "bin": {
+    "cjk-textinput-patch": "patch.js"
+  },
+  "scripts": {
+    "patch": "node patch.js",
+    "postinstall": "yarn run patch"
+  },
+  "devDependencies": {
+    "react-native": ">=0.60.0"
+  }
+}

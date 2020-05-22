@@ -1,6 +1,6 @@
 [![NPM Version][npm-image]][npm-url]
 
-TextInput font is dancing when inputing with CJK.
+TextInput is dancing when inputing with CJK.
 
 This problem has been fixed in v0.63([#28805](https://github.com/facebook/react-native/pull/28805)), but we don't know when it will be released.
 

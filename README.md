@@ -1,10 +1,8 @@
 [![NPM Version][npm-image]][npm-url]
 
-TextInput is dancing when inputing with CJK.
+TextInput is shaking when inputing with CJK.
 
-This problem has been fixed in v0.63([#28805](https://github.com/facebook/react-native/pull/28805)), but we don't know when it will be released.
-
-**Now, This patch will make it work as you expect! It's too easy to use.**
+**This problem has been fixed in RN v0.63.1, But if you can't use this version, this patch will fix the problem for you!**
 
 # Usage
 
